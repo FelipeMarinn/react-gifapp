@@ -7,6 +7,7 @@ export const GifGrid = ({ category }) => {
     const { data: images, loading } = useFetchGifs( category )
    
     return (
+        
         <>
           <h3 className='animate__animated animate__fadeIn animate__delay-2s'> { category } </h3>
 
